@@ -5,6 +5,8 @@ public class ReverseString {
         reverseString("mahesh");
     }
 
+
+    // method to reverse the string
     public static void reverseString(String inp){
         char[] chars = inp.toCharArray() ;
 
