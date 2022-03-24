@@ -6,7 +6,7 @@ public class ReverseString {
     }
 
 
-    // method to reverse the string
+    // method to reverse the given string
     public static void reverseString(String inp){
         char[] chars = inp.toCharArray() ;
 
