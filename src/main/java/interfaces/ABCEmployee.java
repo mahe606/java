@@ -1,6 +1,6 @@
 package interfaces;
 
-public class ABCEmployee  implements  EmployeeRules,FamilyRules{
+public class ABCEmployee implements EmployeeRules, FamilyRules {
 
 
     @Override

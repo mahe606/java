@@ -6,16 +6,17 @@ public class MaxNumber {
         int[] n = {50, 300, 20, 10};
         System.out.println("\n"+maxNumber(n));
     }
-
+    //finds the max number in given int array
+    // checks if next number is grater and swaps
     public static int maxNumber(int[] n){
-        int temp;
+
         for (int i = 0; i < n.length; i++) {
             System.out.print(n[i] + " ");
         }
         System.out.println();
         for (int i = 0; i < n.length-1; i++) {
             if (n[i] > n[i+1]) {
-                temp = n[i];
+                int temp = n[i];
                 n[i] = n[i+1];
                 n[i+1] = temp;
             }

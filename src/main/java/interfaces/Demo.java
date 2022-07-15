@@ -7,6 +7,7 @@ public class Demo {
         System.out.println(ABCEmployee.salary);
         System.out.println(EmployeeRules.leaves);
         abcEmployee.spendTimeWithFamily();
+        abcEmployee.dress();
 
 
         // Dynamic Binding

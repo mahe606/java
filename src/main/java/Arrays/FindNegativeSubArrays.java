@@ -15,19 +15,18 @@ public class FindNegativeSubArrays {
         }
         int sum = 0;
         int count = 0;
-        for(int i = 0;i<a.length;i++){
+        for(int i = 0; i<a.length; i++){
             sum = a[i];
-            if(sum < 0){
+            if(sum<0){
                 count++;
             }
-            for(int j = i+1 ;j<a.length;j++){
-                sum = sum + a[j];
+            for(int j = i+1; j<a.length; j++){
+                sum = sum+a[j];
                 //System.out.println(sum);
-                if(sum < 0){
+                if(sum<0){
                     count++;
                 }
             }
-
         }
         System.out.println(count);
     }

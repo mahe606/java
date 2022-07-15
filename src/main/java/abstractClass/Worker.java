@@ -8,6 +8,7 @@ public abstract class Worker {
     public abstract void work();
 
     public void gatLeaves(){
+
         System.out.println("12 days of leave");
     }
 
