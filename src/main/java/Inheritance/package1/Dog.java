@@ -1,0 +1,22 @@
+package Inheritance.package1;
+
+import Inheritance.package1.Animal;
+
+public class Dog extends Animal {
+
+     String walk() {
+        return "Dog will walk";
+    }
+
+     String talk() {
+        return "Dog is talking";
+    }
+
+     String jump() {
+        return "Dog is jumping";
+    }
+
+     String weight(long weight){
+         return " Dog Weight is " + weight;
+    }
+}
